@@ -1,0 +1,266 @@
+* { font-family: 'Signika', sans-serif;
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../imagenes/chorro1.png) #F1DFC9 no-repeat 100% 0%;
+}
+
+.madre {
+   display: flex; flex-flow: column nowrap;
+}
+
+.whatsapp {
+  position: fixed;
+  align-self: flex-end;
+}
+
+
+.header{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.titulo {
+  background: #E8C07D;
+  border-radius: 2vh;
+  flex: 8 1 auto;
+}
+
+  h1 {font-family: 'Fredoka One'; font-size: 5em;
+    color: #614124; background: #CC704B; border-radius: 10px;
+    text-align: center;
+}
+  h1:hover {
+    color: white;
+  }
+
+.audio {display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.textoaudio {font-size: 80%; font-variant: small-caps;}
+
+.otrasrecetas {
+  width: 100%;
+  border-style: hidden;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+.otras {
+  font-family: 'Boogaloo', cursive;
+  font-size: 5vh;
+  justify: center;
+  text-align: center;
+}
+.otrasmovil {
+  font-family: 'Boogaloo', cursive;
+  font-size: 5vh;
+  justify: center;
+  text-align: center;
+}
+
+.tartagalleta {
+    cursor: pointer;
+    transition: all 500ms ease-out;
+}
+
+.tartagalleta:hover {
+  transform: scale(2);
+}
+
+.cakepops {
+    cursor: pointer;
+    transition: all 500ms ease-out;
+}
+.cakepops:hover {
+  transform: scale(2);
+}
+ .brownie {
+     cursor: pointer;
+     transition: all 500ms ease-out;
+ }
+.brownie:hover {
+  transform: scale(2);
+}
+ .tartabombon {
+     cursor: pointer;
+     transition: all 500ms ease-out;
+ }
+.tartabombon:hover {
+  transform: scale(2);
+}
+
+ /*
+
+.otrasrecetas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.otrasrecetas figure {
+  position: relative;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.otrasrecetas figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+
+.otrasrecetas figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 103, 123, 0.6);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.otrasrecetas figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+.otrasrecetas figure:hover > .capa h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.otrasrecetas figure:hover > img {
+  transform: scale(1.3);
+}
+
+.otrasrecetas figure .capa h3 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+ */
+
+.intro {
+  width: 87%;
+  display: flex;
+  align-items: center;
+  }
+
+.epigrafe {
+  display: flex;
+  flex-direction: column;
+  flex: 8 1 auto;
+  text-align: center;
+}
+
+.mousse {
+  font-family: 'Boogaloo', cursive;
+  font-weight: bolder;
+}
+.mousse:hover {
+  color: #784212;
+}
+
+h4 {
+  font-family: inherit;
+}
+h2 {
+  border-style: outset;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: 'Boogaloo', cursive;
+  font-size: 170%;
+  display: flex; justify-content: center; align-self: center;
+}
+
+.centro:hover {color: #784212;}
+
+.video {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.central {
+  display: flex;
+  justify-content: space-around;
+}
+
+.receta {
+  background: #784212;
+  border-style: double;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.fotos {
+  width: 100%;
+}
+
+ .texto {
+   color: white;
+ }
+
+h2 {
+  font-family: 'Boogaloo', cursive;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.ingredientes:hover {
+   background: white;
+   color: #000;
+ }
+.pasos:hover {
+   background: white;
+   color: #000;
+ }
+
+.datos {
+  border-radius: 10px;
+  width: 25%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.sociales {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* VERSION MOVIL */
+
+@media (min-width: 700px) {
+  .otrasmovil {display: none;}
+  .header {width: 100%}
+}
+
+@media (max-width: 699px)  {
+  .audio {display: none;}
+  .imgcompu {display: none;}
+  .datos {display: none;}
+  .video {display: none;}
+  .receta { display: flex; flex-direction: column;}
+  /* .centro {background: white} */
+}
