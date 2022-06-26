@@ -1,0 +1,25 @@
+function nightmode() {
+  document.body.style.backgroundColor = "black";
+  document.getElementById("negro").style.color = "white";
+  document.getElementById("mousse").style.color = "black";
+  document.getElementById("mousse").style.backgroundColor = "white";
+  document.getElementById("historia").style.color = "white";
+  document.getElementById("dato").style.color = "white";
+  document.getElementById("origen").style.color = "white";
+  document.getElementById("card1").style.backgroundColor = "black";
+  document.getElementById("tit1").style.color = "white";
+  document.getElementById("tex1").style.color = "white";
+  document.getElementById("card2").style.backgroundColor = "black";
+  document.getElementById("tit2").style.color = "white";
+  document.getElementById("tex2").style.color = "white";
+  document.getElementById("card3").style.backgroundColor = "black";
+  document.getElementById("tit3").style.color = "white";
+  document.getElementById("tex3").style.color = "white";
+  document.getElementById("card4").style.backgroundColor = "black";
+  document.getElementById("tit4").style.color = "white";
+  document.getElementById("tex4").style.color = "white";
+  document.getElementById("inicio").style.color = "white";
+  document.getElementById("messages").style.color = "white";
+  document.getElementById("contacto").style.color = "white";
+  document.getElementById("texaudio").style.color = "white";
+}

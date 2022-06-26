@@ -45,121 +45,6 @@ body {
 }
 .textoaudio {font-size: 80%; font-variant: small-caps;}
 
-.otrasrecetas {
-  width: 100%;
-  border-style: hidden;
-  border-radius: 10px;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
-}
-.otras {
-  font-family: 'Boogaloo', cursive;
-  font-size: 5vh;
-  justify: center;
-  text-align: center;
-}
-.otrasmovil {
-  font-family: 'Boogaloo', cursive;
-  font-size: 5vh;
-  justify: center;
-  text-align: center;
-}
-
-.tartagalleta {
-    cursor: pointer;
-    transition: all 500ms ease-out;
-}
-
-.tartagalleta:hover {
-  transform: scale(2);
-}
-
-.cakepops {
-    cursor: pointer;
-    transition: all 500ms ease-out;
-}
-.cakepops:hover {
-  transform: scale(2);
-}
- .brownie {
-     cursor: pointer;
-     transition: all 500ms ease-out;
- }
-.brownie:hover {
-  transform: scale(2);
-}
- .tartabombon {
-     cursor: pointer;
-     transition: all 500ms ease-out;
- }
-.tartabombon:hover {
-  transform: scale(2);
-}
-
- /*
-
-.otrasrecetas {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  height: 100vh;
-}
-
-.otrasrecetas figure {
-  position: relative;
-  height: 250px;
-  width: 350px;
-  overflow: hidden;
-  border-radius: 6px;
-  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-}
-
-.otrasrecetas figure img {
-  width: 100%;
-  height: 100%;
-  transition: all 500ms ease-out;
-}
-
-.otrasrecetas figure .capa {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(11, 103, 123, 0.6);
-  transition: all 500ms ease-out;
-  opacity: 0;
-  visibility: hidden;
-  text-align: center;
-}
-
-.otrasrecetas figure:hover > .capa {
-  opacity: 1;
-  visibility: visible;
-}
-
-.otrasrecetas figure:hover > .capa h3 {
-  margin-top: 70px;
-  margin-bottom: 15px;
-}
-
-.otrasrecetas figure:hover > img {
-  transform: scale(1.3);
-}
-
-.otrasrecetas figure .capa h3 {
-  color: white;
-  font-weight: 400;
-  margin-bottom: 120px;
-  transition: all 500ms ease-out;
-  margin-top: 30px;
-}
-
- */
-
 .intro {
   width: 87%;
   display: flex;
@@ -192,7 +77,14 @@ h2 {
   font-size: 170%;
   display: flex; justify-content: center; align-self: center;
 }
-
+.mode {
+  border-radius: 20px;
+}
+.quesera {
+  width: 15%;
+  align-self: center;
+  border-radius: 20px;
+}
 .centro:hover {color: #784212;}
 
 .video {
@@ -243,11 +135,37 @@ h2 {
   flex-direction: column;
 }
 
+.recetasbootstrap {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  transition: all 500ms ease-out;
+}
+
+.card {
+  transition: all 500ms ease-out;
+}
+
+.card:hover {
+ transform: scale(1.1,1.1);
+}
+
 .sociales {
   display: flex;
   justify-content: space-around;
 }
 
+.recetasbootstrap {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  color: black;
+}
+
+.card-text {
+  font-size: 5%;
+}
 
 /* VERSION MOVIL */
 
